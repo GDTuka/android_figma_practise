@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/card"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="351dp"
+        android:layout_height="62dp">
+    <Button
+        android:layout_marginLeft="14dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:text="Целевой сбор"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:text="Когда есть определённая цель "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:layout_marginLeft="40dp"
+            android:text="123"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:background="@drawable/card"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="351dp"
+        android:layout_height="62dp">
+        <Button
+            android:layout_marginLeft="14dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:text="Целевой сбор"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:text="Когда есть определённая цель "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:layout_marginLeft="40dp"
+            android:text="123"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+</LinearLayout>
