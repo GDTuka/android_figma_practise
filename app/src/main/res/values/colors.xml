@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="firstButton">#4986CC</color>
+    <color name="dash">#4986CC</color>
 </resources>

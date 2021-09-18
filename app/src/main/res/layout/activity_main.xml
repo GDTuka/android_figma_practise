@@ -4,20 +4,20 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:text="У вас пока нет сборов."
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:text="Начните доброе дело."
-        android:layout_marginTop="5dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:id="@+id/FistBtn"
-        android:text="Cоздать сбор"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/firstbutton"
+    <fragment
+        android:id="@+id/container"
+        android:name="com.example.dz1.BlankFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <fragment
+        android:id="@+id/container2"
+        android:name="com.example.dz1.BlankFragment2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/container3"
+        android:name="com.example.dz1.BlankFragment3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>
+

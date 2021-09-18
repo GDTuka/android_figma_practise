@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="383dp"
+            android:layout_height="140dp">
+            <LinearLayout
+                android:background="@drawable/add_pic_third_page"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_something"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="11sp"
+                    android:textSize="16sp"
+                    android:text="Загрузите обложку"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:text="Название сбора"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:background="@drawable/card"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp">
+            <EditText
+                android:textSize="16sp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="Название сбора"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:text="Сумма, Р"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:background="@drawable/card"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp">
+            <EditText
+                android:textSize="16sp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="Сколько нужно собрать"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:text="Цель"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:background="@drawable/card"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp">
+            <EditText
+                android:textSize="16sp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="Нампример, лечение человека"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:text="Описание"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:background="@drawable/card"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp">
+            <EditText
+                android:textSize="16sp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="На что пойдут деньги и как они кому-то помогут?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:text="Куда получать деньги"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:background="@drawable/card"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp">
+            <EditText
+                android:textSize="16sp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="Название сбора"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="Далее"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="383dp"
+            android:layout_height="44dp"
+            android:textColor="@color/white"
+            android:background="@drawable/firstbutton" />
+    </LinearLayout>
+
+</FrameLayout>
