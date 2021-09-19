@@ -34,9 +34,6 @@ class MainActivity : AppCompatActivity() {
         btn1.setOnClickListener{
             onclick2()
         }
-        btn2.setOnClickListener{
-            onclick3()
-        }
     }
 
 }
